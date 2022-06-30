@@ -1,0 +1,48 @@
+*{
+    font-family: 'Inter', sans-serif; 
+}
+.movie_detail{
+  height: calc(100vh - 5.2125em);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-inline: 2em;
+  padding-top: 4em;
+}
+.back_button{
+    background: none;
+    color: #ffffff;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+.details_container{
+    width: 40%;
+}
+.movie_title{
+    font-size: 2.625em;
+    font-weight: 500;
+}
+.description{
+    font-size: 1.25em;
+    color: #ffffffb3;;
+}
+.date_n_lang_div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner_container{
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-inline: 1em;
+}
+.details_container_mobile{
+  padding-inline: 1em;
+}
+@media (max-width: 48em) {
+    .movie_detail{
+        padding-inline: 1em;
+    }
+}

@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+//4d2be2025aa74f1d141939d335aa2cf1
+//eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZDJiZTIwMjVhYTc0ZjFkMTQxOTM5ZDMzNWFhMmNmMSIsInN1YiI6IjYyYmFmZjc3MTJhYWJjMDYxY2IxYjU0MyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.lK0jyVgUzuta8KRc7orFr3-7VyS19D28ioejmauOgk0
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,7 +13,3 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

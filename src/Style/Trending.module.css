@@ -1,0 +1,50 @@
+.trending_heading {
+  font-weight: 500;
+  font-size: 28px;
+}
+.container{
+    padding-inline: 2em;
+}
+.movie_lists{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+
+.pagination{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page_caret, .page_number{
+    margin: 10px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+.page_caret:hover{
+    color: #b0b0b0;
+}
+.page_number:hover{
+    color: #dfaba8;
+    text-decoration: underline;
+}
+.page_number.active{
+    color: #FF6A63;
+    text-decoration: underline;
+}
+
+@media (max-width: 62em) {
+    .movie_lists{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 48em) {
+    .container{
+        padding-inline: 1em;
+    }
+    .movie_lists{
+        grid-template-columns: 1fr;
+    }
+}
